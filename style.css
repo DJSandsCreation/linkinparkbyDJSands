@@ -1,0 +1,270 @@
+body {
+  width: 100%; 
+  height: 100%;
+  color: rgb(0, 0, 0);
+  background: url("linkinp22.jpg") repeat;
+  overflow-block: auto;
+  /*background-color: rgba(0, 0, 0, 0.76); */
+  scroll: hidden;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#main { 
+  color: white;
+}
+
+#title {
+  padding: 0 33%;
+  font-size: 5em;
+}
+
+#title-para {
+  font-size: 1.5em;
+  padding:0 32%;
+}
+
+p{
+  font-size: 1.2em;
+}
+#img-div {
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  float: left;
+}
+
+#tribute-info {
+  display: inline-block;
+  width: 80%;
+  height:20%;
+  margin: auto;
+  padding-left: 10%;
+  
+}
+
+#tribute-info2 {
+  display: inline-block;
+  width: 80%;
+  height:20%;
+  margin: auto;
+  padding-left: 10%; 
+}
+
+/* working on the images */
+
+.showcase-img {
+  width: 100%;
+  padding: 5% 20% 10% 25%;
+
+}
+.showcase-img2 {
+  width: 100%;
+  padding: 10% 40% 10% 90%;
+  margin: auto;
+
+}
+ 
+.showcase-img3 {
+  width: 100%;
+  padding: 10% 40% 10% 40%;
+  margin: auto;
+
+}
+
+
+.showcase-img5 {
+  width: auto;
+  height: 100%;
+  margin: auto;
+  padding: 10% 0% 10% 60%;
+
+}
+.showcase-img6 {
+  width: auto;
+  height: 100%;
+  padding: 10% 40% 10% 40%;
+  margin: auto;
+
+}
+
+.showcase-img66 {
+  width: auto;
+  height: 100%;
+  padding: 10% 30% 10% 30%;
+  margin: auto;
+
+}
+
+.showcase-img7 {
+  width: auto;
+  height: 80%;
+  padding: 10% 30% 10% 70%;
+  margin: auto;
+
+}
+
+.showcase-img8 {
+  width: auto;
+  height: 80%;
+  padding: 10% 50% 10% 110%;
+  margin: auto;
+
+}
+
+.showcase-img9 {
+  width: auto;
+  height: 100%;
+  padding: 10% 50% 10% 150%;
+  margin: auto;
+
+}
+.showcase-img10 {
+  width: auto;
+  height: 100%;
+  padding: 10% 50% 10% 50%;
+  margin: auto;
+
+}
+.showcase-img11 {
+  width: auto;
+  height: 100%;
+  padding: 0% 50% 5% 20%;
+  margin: auto;
+
+}
+
+.showcase-img4 {
+  width: 100%;
+  padding: 0% 40% 10% 40%;
+  margin: auto;
+
+}
+
+.showcase-img20 {
+  width: 100%;
+  padding: 0% 40% 10% 10%;
+  margin: auto;
+
+}
+.showcase-img21 {
+  width: 100%;
+  padding: 5% 20% 5% 25%;
+  margin: auto;
+
+}
+.showcase-img23 {
+  width: 100%;
+  padding: 5% 25% 5% 30%;
+  margin: auto;
+
+}
+.showcase-img24 {
+  width: 100%;
+  padding: 5% 25% 5% 10%;
+  margin: auto;
+
+}
+
+.showcase-img25 {
+  width: 100%;
+  padding: 0% 0% 0% 20%;
+  margin: auto;
+
+}
+.showcase-img26 {
+  width: 100%;
+  padding: 10% 0% 0% 10%;
+  margin: auto;
+
+}
+.showcase-img27 {
+  width: 100%;
+  padding: 10% 0% 0% 0%;
+  margin: auto;
+
+}
+.showcase-img29 {
+  width: 100%;
+  padding: 10% 0% 10% 100%;
+  margin: auto;
+
+}
+.showcase-img-logo {
+  width: 100%; 
+  height: auto;
+  padding: 0% 0% 0% 5%;
+  
+  
+
+}
+#main-showcase {
+ float: left;
+  
+}
+
+/* working on the menu  */
+ul {
+  list-style-type: none;
+  margin: 0 20%;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 1.2rem;
+  
+}
+
+li {
+  float: left;
+
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+  width: 100%;
+  padding: 10% 30% 30% 40%;
+  font-size: 2rem; 
+}
